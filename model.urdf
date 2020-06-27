@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<robot name="youbotscenario">
+  <link name="youbotscenario__Wall_0">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_0_Collision">
+      <origin rpy="0  0  0" xyz="0   -4    0.25"/>
+      <geometry>
+        <box size="5.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_0_Visual">
+      <origin rpy="0  0  0" xyz="0   -4    0.25"/>
+      <geometry>
+        <box size="5.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_12">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_12_Collision">
+      <origin rpy="0      0      1.5708" xyz="0   -3    0.25"/>
+      <geometry>
+        <box size="2.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_12_Visual">
+      <origin rpy="0      0      1.5708" xyz="0   -3    0.25"/>
+      <geometry>
+        <box size="2.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_19">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_19_Collision">
+      <origin rpy="0  0  0" xyz="-0.5   2.5   0.25"/>
+      <geometry>
+        <box size="1.3 0.3 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_19_Visual">
+      <origin rpy="0  0  0" xyz="-0.5   2.5   0.25"/>
+      <geometry>
+        <box size="1.3 0.3 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_22">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_22_Collision">
+      <origin rpy="0      0      1.5708" xyz="-2.5   1    0.25"/>
+      <geometry>
+        <box size="6.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_22_Visual">
+      <origin rpy="0      0      1.5708" xyz="-2.5   1    0.25"/>
+      <geometry>
+        <box size="6.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_24">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_24_Collision">
+      <origin rpy="0      0     -1.5708" xyz="-2.5  -3    0.25"/>
+      <geometry>
+        <box size="2.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_24_Visual">
+      <origin rpy="0      0     -1.5708" xyz="-2.5  -3    0.25"/>
+      <geometry>
+        <box size="2.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_6">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_6_Collision">
+      <origin rpy="0  0  0" xyz="0    4    0.25"/>
+      <geometry>
+        <box size="5.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_6_Visual">
+      <origin rpy="0  0  0" xyz="0    4    0.25"/>
+      <geometry>
+        <box size="5.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="youbotscenario__Wall_8">
+    <inertial>
+      <mass value="0"/>
+      <origin rpy="0  0  0" xyz="0  0  0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <collision name="youbotscenario__Wall_8_Collision">
+      <origin rpy="0      0     -1.5708" xyz="2.5   0    0.25"/>
+      <geometry>
+        <box size="8.1 0.1 0.5"/>
+      </geometry>
+    </collision>
+    <visual name="youbotscenario__Wall_8_Visual">
+      <origin rpy="0      0     -1.5708" xyz="2.5   0    0.25"/>
+      <geometry>
+        <box size="8.1 0.1 0.5"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
