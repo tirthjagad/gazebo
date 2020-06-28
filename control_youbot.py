@@ -7,11 +7,11 @@ rospy.init_node('laser_scan_node')
 
 def callback(msg):
   
-  print msg.ranges[360]
+  print msg.ranges[180]
   move = 1.0
   move1 = 0.0
   move2 = 0.0
-  if msg.ranges[360] < 2 :
+  if msg.ranges[180] < 2 :
     move = 0.0
     move1 = 1.0
     move2 = 0.0
