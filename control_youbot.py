@@ -26,10 +26,10 @@ sub = rospy.Subscriber('scan_front', LaserScan , callback)
 pub = rospy.Publisher('/cmd_vel' , Twist , queue_size=50)
 pub1 = rospy.Publisher('/cmd_vel' , Twist , queue_size=50)
 pub2 = rospy.Publisher('/cmd_vel' , Twist , queue_size=50)
-msg=Twist()
-move=msg.linear.x
-move1=msg.linear.y
-move2=msg.linear.z
+msgg=Twist()
+move=msgg.linear.x
+move1=msgg.linear.y
+move2=msgg.linear.z
 rospy.spin()
 
 
